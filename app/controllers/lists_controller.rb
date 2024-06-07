@@ -18,10 +18,6 @@ class ListsController < ApplicationController
     redirect_to list_path
   end
 
-  def destroy
-
-  end
-  
   private
 
   def list_params
